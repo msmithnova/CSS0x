@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+section {
+    margin: 40px 20px;
+    border-top: 4px solid lightslategrey;
+}
+h1 {
+    color: crimson;
+    text-align: center;
+    background-color: darkslategrey;
+}
+h2 {
+    color: firebrick;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+}
+h3 {
+    color: darkred;
+    background-color: steelblue;
+    width: 50%;
+}
+p {
+    color: burlywood;
+    font-weight: bold;
+}
+li {
+    padding: 10px;
+}
+footer {
+    text-align: center;
+    background-color: darkslategray;
+}
+#quote{
+    border: 4px dotted violet;
+    padding: 20px;
+    margin: 20px 50px;
+}
+#quote span {
+    display: none;
+}
+#quote:hover > span {
+    display: inline;
+}
+.edu-sub, .work-sub, .fav-sub {
+    margin-left: 30px;
+}
+.fav p {
+    margin-left: 30px;
+}
+.fav-sub ol li:last-child {
+    color: silver;
+}
+h3:active {
+    background-color: darkgoldenrod;
+}
