@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+h1 {
+    color: crimson;
+    text-align: center;
+}
+h2 {
+    color: firebrick;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    border: 4px dotted violet;
+    padding: 20px;
+    margin: 20px 50px;
+}
+h3 {
+    color: darkred;
+    background-color: steelblue;
+}
+p {
+    color: white;
+    font-weight: bold;
+}
+li {
+    padding: 10px;
+}
