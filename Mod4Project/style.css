@@ -1,0 +1,84 @@
+html{
+    background-color: black;
+}
+body {
+    background-color: #444141;
+    color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+section {
+    margin: 40px 20px;
+    border-top: 4px solid lightslategrey;
+}
+#head-main {
+    background-color: darkslategrey;
+}
+header h1 {
+    color: crimson;
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    top: -5px;
+}
+#head-main address {
+    float: right;
+    margin-right: 10px;
+}
+h2 {
+    color: firebrick;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+}
+h3 {
+    color: darkred;
+    background-color: steelblue;
+    width: 80%;
+}
+p {
+    color: burlywood;
+    font-weight: bold;
+}
+li {
+    padding: 10px;
+}
+footer {
+    text-align: center;
+    background-color: darkslategray;
+    clear: both;
+}
+#quote{
+    border: 4px dotted violet;
+    padding: 20px;
+    margin: 20px 50px;
+    clear: both;
+}
+#quote span {
+    display: none;
+}
+#quote:hover > span {
+    display: inline;
+}
+main {
+    width: 63%;
+    float: left;
+}
+.edu-sub, .work-sub, .fav-sub {
+    margin-left: 30px;
+}
+aside {
+    width: 33%;
+    float: right;
+}
+.fav p {
+    margin-left: 30px;
+}
+.fav-sub ol li:last-child {
+    color: silver;
+}
+h3:active {
+    background-color: darkgoldenrod;
+}
